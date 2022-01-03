@@ -1,0 +1,263 @@
+%!TEX program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modifications by:
+% Henry Trinh <henrymtrinh14@gmail.com>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, letterpaper]{awesome-cv}
+\usepackage{graphicx}
+
+% Configure page margins with geometry
+\geometry{left=0.5in, top=0.5in, right=0.5in, bottom=0.5in}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% \colorlet{awesome}{awesome-nephritis}
+% \colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{Vivian}{Trinh}
+% \position{Software Engineer}
+% \address{address}
+
+\mobile{(408) 613-5257}
+\email{viviantt9@gmail.com}
+%\homepage{henrytrinh.xyz}
+\github{viviantt9}
+\linkedin{viviantt9}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+% \vspace*{-0.35in}
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+% \vspace*{-0.1in}
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+%   {\today}
+%   {Henry Trinh~~~·~~~Résumé}
+%   {\thepage}
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+% EDUCATION
+\cvsection{Education}
+\begin{cventries}
+  \cventry
+    {B.S. Computer Science, GPA: 5.0} % Degree
+    {Massachusetts Institute of Technology} % Institution
+    {Cambridge, MA} % Location
+    {September 2021 -- May 2025} % Date(s)
+    {
+      % \vspace{-0.11in}
+      % \begin{cvskills}
+      %   \cvskill
+      %     {Courses} % Type
+      %     {} % Skillset
+      % \end{cvskills}
+    }
+  \vspace{-0.2in}
+\end{cventries} 
+
+% EXPERIENCE
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+      {Software Intern} % Job title
+      {Walden Local Meat Co.} % Organization
+      {Tewksbury, MA} % Location
+      {January 2022 - January 2022} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+          \item {Design and implement real-time inventory tracking and request system taking into account physical and technical constraints}
+          \item {Design database models, user interfaces, and integrate solution into internal Python application}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Corporate Relations Head} % Job title
+    {HackMIT} % Organization
+    {Cambridge, MA} % Location
+    {September 2021 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Run the CR committee for HackMIT as head by managing roles and overseeing tasks}
+        \item {Seek out companies and organizations to negotiate sponsorships}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Building Lightweight Climate Models with Physics-informed Deep Learning } % Job title
+    {Undergraduate Research} % Organization
+    {Cambridge, MA} % Location
+    {September 2021 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Research in developing more energy-sustainable lightweight climate models}
+        \item {Process climate model output to implement a baseline time-series machine learning model}
+      \end{cvitems}
+    }
+
+    \cventry
+    {Web Programming for SWE site} % Job title
+    {Society of Women Engineers} % Organization
+    {Cambridge, MA} % Location
+    {September 2021 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Manage and improve MIT's SWE website for event attendance and board requirements}
+        \item {Add additional features and create additional documentation on website's database}
+    \end{cvitems}
+    }
+
+    \cventry
+      {UA Sustainablity and Finboard Committee Member} % Job title
+      {MIT Undergraduate Association (UA)} % Organization
+      {Cambridge, MA} % Location
+      {September 2021 - Present} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+          \item {Contribute to running thrift pop-up stores and constructing garden spaces}
+          \item {Allocate funding for clubs and assist them with fundraising}
+      \end{cvitems}
+    }
+
+
+  \end{cventries} 
+
+  % \cventry
+  %   {Lead Sof\/tware Developer — React, MongoDB, PostgreSQL, Node.js, Django, Docker} % Job title
+  %   {Daily Bruin} % Organization
+  %   {Los Angeles, CA} % Location
+  %   {April 2019 - June 2020} % Date(s)
+  %   {
+  %     \begin{cvitems} % Description(s) of tasks/responsibilities
+  %       \item {Coded and deployed 10+ interactive web applications with 100k+ views with a team of 10 developers}
+  %       \item {Built database infrastructure and wrote APIs for multiple projects}
+  %       % \item {Constructed customizable components for the Daily Bruin Lux library to improve development speed}
+  %     \end{cvitems}
+  %   }
+
+% \end{cventries}
+
+%%%PROJECTS
+\cvsection{Projects}
+\begin{cventries}
+  \cventry
+    {} % Empty position
+    {Spotify Clone} % Project
+    {} % Empty location
+    {} % Empty date
+    {
+      \vspace{-0.2in}
+      \begin{cvitems} % Description(s) bullet points
+        \vspace{-0.5in}
+        \item {Developed application to play music from a library}
+        \item {Performs functions: favoriting/unfavoriting songs, playback, fastforward, pause/resume, display song info}
+      \end{cvitems}
+    }
+
+  \cventry
+    {} % Empty position
+    {Image Editor} % Project
+    {} % Empty location
+    {} % Empty date
+    {
+      \vspace{-0.2in}
+      \begin{cvitems} % Description(s) bullet points
+        \vspace{-0.1in}
+        \item {Ask users to upload any image within a size range}
+        \item {Edits uploaded image: rotating, flipping, color change, enlargement}
+      \end{cvitems}
+    }
+
+    \cventry
+    {} % Empty position
+    {Effects of Soluble Fiber on Cholesterol} % Project
+    {} % Empty location
+    {} % Empty date
+    {
+      \vspace{-0.2in}
+      \begin{cvitems} % Description(s) bullet points
+        \item {Designed an experiment to test how soluble fibers from different substances effect cholesterol levels}
+        \item {Used the Liebermann-Burchard test and spectrophotometer anaylsis}
+        \item {Won regional science fair}
+      \end{cvitems}
+    }
+\end{cventries}
+
+% SKILLS
+\cvsection{Skills}
+\begin{cvskills}
+  \cvskill
+    {Languages} % Type
+    {Python, C/C++, Java, JavaScript, HTML/CSS} % Skillset
+
+  \cvskill
+    {Frameworks + Tools} % Type
+    {Git, React, MATLAB, Illustrator} % Skillset
+  
+  % \cvskill
+  %   {Technologies} % Type
+  %   {} % Skillset
+    
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+\end{document}
