@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1692572554 "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.tex" "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.pdf" "Vivian_Trinh_Resume" 1692572591
-  "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.aux" 1692572554 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.tex" 1692572591 9286 df478624bbe053438e64109fb1a33a17 ""
+["pdflatex"] 1692575093 "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.tex" "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.pdf" "Vivian_Trinh_Resume" 1692575093
+  "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.aux" 1692575093 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/viviantrinh/Projects/resume/Vivian_Trinh_Resume.tex" 1692575092 9286 7b6e838f28b045cc8099d5b871b78498 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -35,7 +35,7 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1641178215 2724738 99366955a5081c0708b7688576e16bd4 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Vivian_Trinh_Resume.tex" 1692572591 9286 df478624bbe053438e64109fb1a33a17 ""
+  "Vivian_Trinh_Resume.tex" 1692575092 9286 7b6e838f28b045cc8099d5b871b78498 ""
   "awesome-cv.cls" 1641198838 27988 7abeb6be7c8bdd7371b57bacbeab8fa2 ""
   (generated)
   "Vivian_Trinh_Resume.log"
